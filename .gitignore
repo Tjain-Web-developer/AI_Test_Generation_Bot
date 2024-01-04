@@ -1,0 +1,42 @@
+# .gitignore in the root of the project
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js
+client/node_modules
+server/node_modules
+
+# Distribution files
+client/dist
+client/dist-ssr
+
+# Local files
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#Env variables
+client/.env
+server/.env
+
+# Server-specific ignores
+# Add server-specific ignores here
+
+# Client-specific ignores
+# Add client-specific ignores here

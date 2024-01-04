@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.App {
+    padding: 1rem 2rem;
+}
+
+.upHead {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.inputWrap {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #eee;
+    border-radius: 10px;
+    border: 2px dashed grey;
+    overflow: hidden;
+}
+
+.inputWrap > div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.inputBox {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 43%;
+    top: 18%;
+    z-index: 2;
+}
+
+.pdfBox {
+    padding: 2rem;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.boxLeft > img {
+    height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.boxLeft,
+.boxRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.Loader {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    user-select: none;
+}
+
+.loaderWrap h1 {
+    margin-top: 1rem;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.submitBtn {
+    width: fit-content;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.buttonStyle {
+    /* display: inline-block; */
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    height: 34px;
+    padding: 0 13px;
+    color: #fff;
+    vertical-align: top;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+    background: #cc4d29;
+    border-color: #cc4d29;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 11px;
+}
+.buttonStyle:hover {
+    background-color: #e4461b;
+    border-color: #e4461b;
+}
+
+.saveAsPdfBtn {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+/* ___________________________________________________________________ */
+
+.quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+label {
+    margin-right: 10px;
+}
+
+.validate-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.correct {
+    color: #4caf50;
+}
+
+.incorrect {
+    color: #f44336;
+}
+
+.heading {
+    margin-bottom: 0.5rem;
+}
+
+.results li {
+    margin-bottom: 0.5rem;
+}
