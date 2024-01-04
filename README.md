@@ -81,8 +81,8 @@ Make sure you have the following installed:
 
 To obtain API keys for Google Gemini API and Pinecone API, visit the following websites:
 
-- [Google Gemini API]([https://example.com/google-gemini-api-key](https://makersuite.google.com/app/apikey))
-- [Pinecone API]([https://example.com/pinecone-api-key](https://docs.pinecone.io/docs/quickstart#2-get-your-api-key))
+- [Google Gemini API](https://makersuite.google.com/app/apikey)
+- [Pinecone API](https://docs.pinecone.io/docs/quickstart#2-get-your-api-key)
 
 ## Contributing
 
