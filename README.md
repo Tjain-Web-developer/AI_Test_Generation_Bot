@@ -17,7 +17,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone [repository_url]
+    git clone [[repository_url]](https://github.com/Tjain-Web-developer/AI_Test_Generation_Bot.git)
     ```
 
 2. Navigate to the client folder:
@@ -81,8 +81,8 @@ Make sure you have the following installed:
 
 To obtain API keys for Google Gemini API and Pinecone API, visit the following websites:
 
-- [Google Gemini API](https://example.com/google-gemini-api-key)
-- [Pinecone API](https://example.com/pinecone-api-key)
+- [Google Gemini API]([https://example.com/google-gemini-api-key](https://makersuite.google.com/app/apikey))
+- [Pinecone API]([https://example.com/pinecone-api-key](https://docs.pinecone.io/docs/quickstart#2-get-your-api-key))
 
 ## Contributing
 
@@ -91,7 +91,3 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-Replace `[repository_url]` with your actual repository URL. Modify the placeholder URLs in the API Key Generation section with the correct URLs for obtaining the respective API keys.
