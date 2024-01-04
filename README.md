@@ -145,7 +145,7 @@ The AI Test Bot automates the process of generating MCQ quizzes from PDF files, 
 
 **Approach:**
 1. **PDF Processing:**
-   - Used PDF parsing libraries (PDFMiner, PyPDF2) for accurate text extraction from diverse PDF formats.
+   - Used PDF parsing libraries (pdf-parse, pdfreader) for accurate text extraction from diverse PDF formats.
    - Ensured robust handling of different PDF layouts for improved information extraction.
 
 2. **Embedding Generation:**
