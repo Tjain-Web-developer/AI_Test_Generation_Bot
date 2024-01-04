@@ -17,7 +17,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone [[repository_url]](https://github.com/Tjain-Web-developer/AI_Test_Generation_Bot.git)
+    git clone https://github.com/Tjain-Web-developer/AI_Test_Generation_Bot.git
     ```
 
 2. Navigate to the client folder:
