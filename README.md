@@ -84,6 +84,50 @@ To obtain API keys for Google Gemini API and Pinecone API, visit the following w
 - [Google Gemini API](https://makersuite.google.com/app/apikey)
 - [Pinecone API](https://docs.pinecone.io/docs/quickstart#2-get-your-api-key)
 
+## Troubleshooting
+
+### File Not Found Error
+
+If you encounter the following error when running the server:
+
+```bash
+node:fs:581
+  return binding.open(
+                 ^
+
+Error: ENOENT: no such file or directory, open 'path/to/file.pdf'
+    at Object.openSync (node:fs:581:18)
+    at Object.readFileSync (node:fs:457:35)
+    at Object.<anonymous> (path/to/your/project/server/node_modules/pdf-parse/index.js:15:25)
+    ...
+```
+
+#### Solution:
+
+1. Navigate to the `server` folder:
+
+    ```bash
+    cd server
+    ```
+
+2. Open the `node_modules/pdf-parse/index.js` file in a text editor.
+
+3. Locate the following code at line number 6:
+
+    ```javascript
+    let isDebugMode = !module.parent;
+    ```
+
+4. Replace it with the following:
+
+    ```javascript
+    let isDebugMode = false;
+    ```
+
+5. Save the file and restart your server.
+
+This change sets the `isDebugMode` variable to `false`, which should resolve the file not found issue. If the problem persists, consider checking the path specified in the error message and ensuring that the file exists at the specified location.
+
 ## Contributing
 
 Feel free to contribute to the project by opening issues or submitting pull requests.
